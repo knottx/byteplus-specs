@@ -131,8 +131,8 @@ Pod::Spec.new do |spec|
     subspec.vendored_frameworks = "TTSDKFramework/TTSDKCore/*.{xcframework,framework}"
     
     unless $DoNotInstallApplogVersion == "6.16.8-bp"
-      subspec.dependency 'RangersAppLog/Core', '~> 6.16.8-bp'
-      subspec.dependency 'RangersAppLog/Host/SG', '~> 6.16.8-bp'
+      subspec.dependency 'RangersAppLog/Core', '~> 6.17.7-iOS26-xc'
+      subspec.dependency 'RangersAppLog/Host/SG', '~> 6.17.7-iOS26-xc'
     end
     subspec.libraries = 'stdc++'
   end
